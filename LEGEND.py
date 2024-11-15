@@ -1,11 +1,11 @@
-import os
+itimport os
 import asyncio
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 from telegram.error import TelegramError
 
-TELEGRAM_BOT_TOKEN = '7225741439:AAHGeV8lDWpC8isQVNlU2po2MWvfjIQ34IQ'
-ALLOWED_USER_ID = 19296958
+TELEGRAM_BOT_TOKEN = '7908873954:AAECLgTNczl_EvV85bEw2IuMhmWgng2btKw'
+ALLOWED_USER_ID = 1929695820
 bot_access_free = True  
 
 async def start(update: Update, context: CallbackContext):
